@@ -26,7 +26,9 @@ RENAME: This is used to rename an object existing in the database.
 create table student(rollno int,name char(20),age int,addr varchar(20),phoneno int);
 ```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/490a6bfd-05f1-4789-8526-274d786999c9)
+![image](https://github.com/ganeshshanmugavel27/G2_DBMS/assets/122046208/c89e8c63-52b3-48a3-b3b0-471631db6d84)
+
+
 
 ### 2) Change the above student table by adding another attribute department
 
@@ -36,7 +38,9 @@ alter table student add department char(30);
 
 ```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/9ee913f2-a82f-4b3d-a2bb-d5f2254184d1)
+![image](https://github.com/ganeshshanmugavel27/G2_DBMS/assets/122046208/725692c7-eef6-40ef-8b47-9731b3ca441a)
+
+
 
 ### 3) Drop the student table
  
@@ -46,7 +50,8 @@ drop table student;
 
 ```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/fbbd4d76-7f7f-4a96-876d-ea3f7688a81f)
+![image](https://github.com/ganeshshanmugavel27/G2_DBMS/assets/122046208/26823ba6-864a-4f28-9df3-9134703a899e)
+
 
 
 ### 4) Delete the student table using truncate keyword
@@ -56,7 +61,8 @@ truncate table student;
 
 ```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/a588479f-0b33-4e5a-88cd-e8b2e2069a77)
+![image](https://github.com/ganeshshanmugavel27/G2_DBMS/assets/122046208/7cd88ed8-dffc-4c33-98df-b986f4d2edd4)
+
 
 ### 5) Rename the student table to mystudent
 ### SQL QUERY: 
@@ -65,7 +71,8 @@ alter table student rename to mystudent;
 
 ```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/0c723764-5e0e-49ce-927b-b1fdd0a03f66)
+![image](https://github.com/ganeshshanmugavel27/G2_DBMS/assets/122046208/ce3d012e-6ef1-414f-a81f-b6d744d5acfb)
+
 
 ### RESULT:
 To create a student database and execute DDL queries using SQL is executed successfully.
