@@ -3,7 +3,6 @@
 ## AIM:
 To create a student database and execute DDL queries using SQL.
 
-
 ## DDL (Data Definition Language)
 <div align="justify">
 DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in the database. DDL is a set of SQL commands used to create, modify, and delete database structures but not data. These commands are normally not used by a general user, who should be accessing the database via an application.
@@ -28,8 +27,6 @@ create table student(rollno int,name char(20),age int,addr varchar(20),phoneno i
 ### OUTPUT:
 ![image](https://github.com/ganeshshanmugavel27/G2_DBMS/assets/122046208/c89e8c63-52b3-48a3-b3b0-471631db6d84)
 
-
-
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
@@ -40,8 +37,6 @@ alter table student add department char(30);
 ### OUTPUT:
 ![image](https://github.com/ganeshshanmugavel27/G2_DBMS/assets/122046208/725692c7-eef6-40ef-8b47-9731b3ca441a)
 
-
-
 ### 3) Drop the student table
  
 ### SQL QUERY: 
@@ -51,8 +46,6 @@ drop table student;
 ```
 ### OUTPUT:
 ![image](https://github.com/ganeshshanmugavel27/G2_DBMS/assets/122046208/26823ba6-864a-4f28-9df3-9134703a899e)
-
-
 
 ### 4) Delete the student table using truncate keyword
 ### SQL QUERY: 
