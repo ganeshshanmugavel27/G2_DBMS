@@ -63,7 +63,6 @@ truncate table student;
 ### OUTPUT:
 ![image](https://github.com/ganeshshanmugavel27/G2_DBMS/assets/122046208/7cd88ed8-dffc-4c33-98df-b986f4d2edd4)
 
-
 ### 5) Rename the student table to mystudent
 ### SQL QUERY: 
 ```
